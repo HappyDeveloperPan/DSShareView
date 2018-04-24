@@ -22,7 +22,7 @@ pod 'DSShareView'
 
 ## Author
 
-943147350@qq.com, 943147350@qq.com
+DriftSand, 943147350@qq.com
 
 ## License
 

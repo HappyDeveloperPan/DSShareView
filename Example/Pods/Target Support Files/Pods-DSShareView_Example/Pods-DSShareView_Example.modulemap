@@ -1,0 +1,6 @@
+framework module Pods_DSShareView_Example {
+  umbrella header "Pods-DSShareView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

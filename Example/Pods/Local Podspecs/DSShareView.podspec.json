@@ -1,0 +1,22 @@
+{
+  "name": "DSShareView",
+  "version": "0.1.0",
+  "summary": "A short description of DSShareView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/943147350@qq.com/DSShareView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "943147350@qq.com": "943147350@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/943147350@qq.com/DSShareView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DSShareView/Classes/**/*"
+}

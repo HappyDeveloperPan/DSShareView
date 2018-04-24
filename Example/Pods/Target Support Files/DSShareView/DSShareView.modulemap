@@ -1,0 +1,6 @@
+framework module DSShareView {
+  umbrella header "DSShareView-umbrella.h"
+
+  export *
+  module * { export * }
+}
