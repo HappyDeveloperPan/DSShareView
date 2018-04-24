@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DSShareView_Example' do
+  pod 'DSShareView', :path => '../'
+
+  target 'DSShareView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
