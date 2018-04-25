@@ -1,15 +1,17 @@
 # DSShareView
 
-[![CI Status](http://img.shields.io/travis/943147350@qq.com/DSShareView.svg?style=flat)](https://travis-ci.org/943147350@qq.com/DSShareView)
-[![Version](https://img.shields.io/cocoapods/v/DSShareView.svg?style=flat)](http://cocoapods.org/pods/DSShareView)
-[![License](https://img.shields.io/cocoapods/l/DSShareView.svg?style=flat)](http://cocoapods.org/pods/DSShareView)
-[![Platform](https://img.shields.io/cocoapods/p/DSShareView.svg?style=flat)](http://cocoapods.org/pods/DSShareView)
+[![Platform](https://img.shields.io/badge/platform-iOS-red.svg)](http://cocoapods.org/pods/DSShareView)
+[![Language](https://img.shields.io/badge/language-Swift-orange.svg)](https://travis-ci.org/943147350@qq.com/DSShareView)
+[![Version](https://img.shields.io/badge/version-1.0.2-brightgreen.svg)](http://cocoapods.org/pods/DSShareView)
+[![License](hhttps://img.shields.io/badge/license-MIT%20LICENSE-brightgreen.svg)](http://cocoapods.org/pods/DSShareView)
+
+## 项目简介
+
+一款Swift版的组定义社会化分享弹出视图控件
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 

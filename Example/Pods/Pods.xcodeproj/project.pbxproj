@@ -8,10 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0363DD92EDBCA3B8C244F005C525F5CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1C1760392090743300FBF8B4 /* DSShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1760352090743300FBF8B4 /* DSShareButton.swift */; };
+		1C17603B2090743300FBF8B4 /* DSSharePlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1760372090743300FBF8B4 /* DSSharePlatform.swift */; };
+		1C17603C2090743300FBF8B4 /* DSShareModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1760382090743300FBF8B4 /* DSShareModel.swift */; };
+		1C176042209077ED00FBF8B4 /* DSShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C176041209077ED00FBF8B4 /* DSShareView.swift */; };
 		36D48DDA6855604F09857BA627B030E1 /* DSShareView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 975CF978EF079AD540DF2D2386BFFBC5 /* DSShareView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4359E120803E4745BCF0C233502786F8 /* Pods-DSShareView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E548D3390DF9BD9A9242FCC5729987 /* Pods-DSShareView_Example-dummy.m */; };
 		4E0EA37D08F87A68E3278064D2662332 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		64EEB958B9CAEE53D01A8CB49F0CCC09 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3799540904D0B42C62ECF8434A9258BB /* ReplaceMe.swift */; };
 		9F498D6AC4CB9FB441170C36E1F800DC /* Pods-DSShareView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9494090C4790333C4A5D36BC06FA862A /* Pods-DSShareView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3E432D6897F1F85B8DCF2BC983FC4ED /* Pods-DSShareView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D7F65BF56365ED293AA357D5044576 /* Pods-DSShareView_Tests-dummy.m */; };
 		F5F4855D6655AAC0540ED0114CBACBFF /* Pods-DSShareView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FED01FC933AC681A721736BBC755594 /* Pods-DSShareView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,14 +38,25 @@
 		0E335546C16D6719E53077F977043DC5 /* DSShareView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DSShareView-dummy.m"; sourceTree = "<group>"; };
 		144057EC9BB60151FFBEA48FB3629766 /* DSShareView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DSShareView.xcconfig; sourceTree = "<group>"; };
 		18E548D3390DF9BD9A9242FCC5729987 /* Pods-DSShareView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DSShareView_Example-dummy.m"; sourceTree = "<group>"; };
-		27B0DA9C87D773DA40BE75444B1F6697 /* Pods_DSShareView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DSShareView_Tests.framework; path = "Pods-DSShareView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		32C79AE27499B4B963926FEC9BAF5F4C /* Pods_DSShareView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DSShareView_Example.framework; path = "Pods-DSShareView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C1760352090743300FBF8B4 /* DSShareButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DSShareButton.swift; path = DSShareView/Classes/DSShareButton.swift; sourceTree = "<group>"; };
+		1C1760372090743300FBF8B4 /* DSSharePlatform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DSSharePlatform.swift; path = DSShareView/Classes/DSSharePlatform.swift; sourceTree = "<group>"; };
+		1C1760382090743300FBF8B4 /* DSShareModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DSShareModel.swift; path = DSShareView/Classes/DSShareModel.swift; sourceTree = "<group>"; };
+		1C176041209077ED00FBF8B4 /* DSShareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DSShareView.swift; path = DSShareView/Classes/DSShareView.swift; sourceTree = "<group>"; };
+		1C17604420907C5B00FBF8B4 /* pyq_allshare_night_60x60_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pyq_allshare_night_60x60_@2x.png"; sourceTree = "<group>"; };
+		1C17604520907C5B00FBF8B4 /* pyq_allshare_60x60_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pyq_allshare_60x60_@2x.png"; sourceTree = "<group>"; };
+		1C17604620907C5B00FBF8B4 /* pyq_allshare_night_60x60_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pyq_allshare_night_60x60_@3x.png"; sourceTree = "<group>"; };
+		1C17604720907C5B00FBF8B4 /* weixin_allshare_night_60x60_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixin_allshare_night_60x60_@2x.png"; sourceTree = "<group>"; };
+		1C17604820907C5B00FBF8B4 /* weixin_allshare_night_60x60_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixin_allshare_night_60x60_@3x.png"; sourceTree = "<group>"; };
+		1C17604920907C5B00FBF8B4 /* pyq_allshare_60x60_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pyq_allshare_60x60_@3x.png"; sourceTree = "<group>"; };
+		1C17604A20907C5B00FBF8B4 /* weixin_allshare_60x60_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixin_allshare_60x60_@3x.png"; sourceTree = "<group>"; };
+		1C17604B20907EDF00FBF8B4 /* weixin_allshare_60x60_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixin_allshare_60x60_@2x.png"; sourceTree = "<group>"; };
+		27B0DA9C87D773DA40BE75444B1F6697 /* Pods_DSShareView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSShareView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C79AE27499B4B963926FEC9BAF5F4C /* Pods_DSShareView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSShareView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33100D3D25179A06E583D79D72695DD3 /* DSShareView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSShareView-prefix.pch"; sourceTree = "<group>"; };
-		3799540904D0B42C62ECF8434A9258BB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DSShareView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		3A42189FFF6DA7B2E7B43232548C9697 /* DSShareView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DSShareView.framework; path = DSShareView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A42189FFF6DA7B2E7B43232548C9697 /* DSShareView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DSShareView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7EF4882694B027D35A84065790C5E6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4525C5EF57F9708A4271F835A893E014 /* Pods-DSShareView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DSShareView_Example-resources.sh"; sourceTree = "<group>"; };
-		460D0A9EC12F470AC30D4FF304828EA1 /* Pods-DSShareView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DSShareView_Tests.modulemap"; sourceTree = "<group>"; };
+		460D0A9EC12F470AC30D4FF304828EA1 /* Pods-DSShareView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DSShareView_Tests.modulemap"; sourceTree = "<group>"; };
 		4A0C1FF567DACB6642FBCF13230C73D1 /* Pods-DSShareView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DSShareView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5C01BDA7A68E121631DF853981AEF923 /* Pods-DSShareView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSShareView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		60912B05784944E47C9D84E91B73AA44 /* Pods-DSShareView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSShareView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -53,15 +67,15 @@
 		7B5417DA80A08B76B0927DB6A5F925B3 /* Pods-DSShareView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSShareView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7FED01FC933AC681A721736BBC755594 /* Pods-DSShareView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DSShareView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8C7996C272073AAE177B65545BACCF4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9494090C4790333C4A5D36BC06FA862A /* Pods-DSShareView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DSShareView_Example-umbrella.h"; sourceTree = "<group>"; };
 		96EF39FBED99F088CC83F4AF5CEE74DF /* Pods-DSShareView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSShareView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		975CF978EF079AD540DF2D2386BFFBC5 /* DSShareView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSShareView-umbrella.h"; sourceTree = "<group>"; };
-		A4165CA4AF610042B4242B9A561389C1 /* DSShareView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DSShareView.modulemap; sourceTree = "<group>"; };
+		A4165CA4AF610042B4242B9A561389C1 /* DSShareView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DSShareView.modulemap; sourceTree = "<group>"; };
 		AE15613F7D8143D00C8FAD8DCEDEDDF3 /* Pods-DSShareView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DSShareView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B387124F572F1F01F41BFAD488D90704 /* Pods-DSShareView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSShareView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C19CB1725B652C00CD8F8F32CC2D488E /* Pods-DSShareView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DSShareView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D0825B83F6AFE965716397D0742458B2 /* Pods-DSShareView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DSShareView_Example.modulemap"; sourceTree = "<group>"; };
+		D0825B83F6AFE965716397D0742458B2 /* Pods-DSShareView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DSShareView_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +124,22 @@
 			path = "Target Support Files/Pods-DSShareView_Tests";
 			sourceTree = "<group>";
 		};
+		1C17603D2090753100FBF8B4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1C17604520907C5B00FBF8B4 /* pyq_allshare_60x60_@2x.png */,
+				1C17604920907C5B00FBF8B4 /* pyq_allshare_60x60_@3x.png */,
+				1C17604420907C5B00FBF8B4 /* pyq_allshare_night_60x60_@2x.png */,
+				1C17604620907C5B00FBF8B4 /* pyq_allshare_night_60x60_@3x.png */,
+				1C17604B20907EDF00FBF8B4 /* weixin_allshare_60x60_@2x.png */,
+				1C17604A20907C5B00FBF8B4 /* weixin_allshare_60x60_@3x.png */,
+				1C17604720907C5B00FBF8B4 /* weixin_allshare_night_60x60_@2x.png */,
+				1C17604820907C5B00FBF8B4 /* weixin_allshare_night_60x60_@3x.png */,
+			);
+			name = Resource;
+			path = DSShareView/Assets/Resource;
+			sourceTree = "<group>";
+		};
 		42F1944FA5B4437C99571EAE6480E311 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,7 +186,11 @@
 		B7185DE598ECFF3084455273E9BFE162 /* DSShareView */ = {
 			isa = PBXGroup;
 			children = (
-				3799540904D0B42C62ECF8434A9258BB /* ReplaceMe.swift */,
+				1C17603D2090753100FBF8B4 /* Resource */,
+				1C1760352090743300FBF8B4 /* DSShareButton.swift */,
+				1C1760382090743300FBF8B4 /* DSShareModel.swift */,
+				1C1760372090743300FBF8B4 /* DSSharePlatform.swift */,
+				1C176041209077ED00FBF8B4 /* DSShareView.swift */,
 				42F1944FA5B4437C99571EAE6480E311 /* Support Files */,
 			);
 			name = DSShareView;
@@ -296,6 +330,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					7CF0A715A0186ABA4508F42DF22D0E3C = {
+						LastSwiftMigration = 0930;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -337,8 +376,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C1760392090743300FBF8B4 /* DSShareButton.swift in Sources */,
+				1C176042209077ED00FBF8B4 /* DSShareView.swift in Sources */,
 				F945DA3C70D9E64FDAFBD791781479F9 /* DSShareView-dummy.m in Sources */,
-				64EEB958B9CAEE53D01A8CB49F0CCC09 /* ReplaceMe.swift in Sources */,
+				1C17603C2090743300FBF8B4 /* DSShareModel.swift in Sources */,
+				1C17603B2090743300FBF8B4 /* DSSharePlatform.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +400,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 144057EC9BB60151FFBEA48FB3629766 /* DSShareView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -638,6 +681,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 144057EC9BB60151FFBEA48FB3629766 /* DSShareView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
